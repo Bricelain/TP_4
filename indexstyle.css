@@ -1,0 +1,108 @@
+body{
+	background-image: url(images/glace.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+}
+h1{
+	color: rgba(1, 5, 5 0.8);
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 100px;
+	text-overflow: 34px;
+	height: 150px;
+	text-shadow: 4px;
+	font-size: 2em;
+	background-image: url(images/nature.jpg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom;
+}
+
+li{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	color: azure;
+	text-align: justify;
+}
+.liste{
+	color: azure;
+}
+a{
+	color: azure;
+	font-family: 'Playfair Display', serif;
+}
+
+.puce {
+	height: 1200px;
+	width: 300px;
+	font-size: small;
+	background-image: url(images/chute.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	float: left;
+	border-radius: 50px 0px 50px 0px;
+	border-style:outset;
+	box-shadow: rgb(8, 8, 8);
+	animation:backwards;
+	transition: 0,2s;
+}
+a:hover{
+	color: aqua;
+}
+a:active{
+	color: aquamarine;
+}
+
+.div2{
+	float: right;
+	width: 1100px;
+	height: 50px;
+	font-size: 45px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+.div3{
+	
+}
+.div4{
+	
+	float: left;
+	width: 400px;
+}
+.div5{
+	float: right;
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 150px 400px;
+	gap: 20px;
+	border: 2px solid black;
+}
+p{
+	font-size: 15px;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	box-shadow: 25px black;
+
+}
+.photo {
+	opacity: 0,6;
+	align-items: center;
+}
+.un{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.pied{
+	clear: both;
+	border: 2px solid black;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	color: azure;
+	text-align: justify;
+	background-color: bisque;
+}
