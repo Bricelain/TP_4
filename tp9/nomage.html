@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<body>
+    <h2> Tableau dynamique</h2>
+    <table id="myTable">
+        <div>
+            <input class="t" type="number" name="nom" placeholder=" Nom " id="c1">
+            <input class="t" type="number" name="age" placeholder=" Âge " id="c2">
+        </div>
+        <tr>
+            <td> Nom</td>
+            <td> Âge</td>
+        </tr>
+        <tr>
+            <td> John</td>
+            <td> 30</td>
+        </tr>
+        <tr>
+            <td> Jane</td>
+            <td> 25</td>
+        </tr>
+    </table>
+    <button onclick="ajouterligne()">Ajouter une ligne</button>
+    <script>
+    function ajouterligne(){
+        var a =document.getElementById("c1").value;
+        var b =document.getElementByIdc("c2").value;
+        if (a=="" // b=="")
+        alert("Un ou 2 champs vide");
+    else if ((nuber(b)<10) // (number(b)>20))
+    {
+        alert("l'age n'est pas valide");
+    }
+    {
+        var table =document.getElementById("myTable");
+        var newRow = table.insertRow(-1);
+        var cell1 = newRow.insertCell(0);
+        var cell2 = newRow.insertCell(1);
+        cell1.innerHTML = "Nouveau Nom";
+        cell2.innerHTML = "Nouvel Âge";
+
+        
+    } </script>
+
+
+
+    
+</body>
+</html>
